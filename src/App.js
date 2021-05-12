@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "../src/fonts/stylesheet.css";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/file";
 import video from "../src/hero.mp4";
 import static_background from "../src/static-background.jpeg";
 // import React, { useState } from "react";
@@ -8,7 +8,7 @@ import static_background from "../src/static-background.jpeg";
 function App() {
   return (
     <div className="bg-black text-white h-screen flex flex-col items-center justify-end py-10 px-6">
-      <div className="flex flex-col text-center max-w-3xl relative z-10">
+      <div className="text-center max-w-3xl relative z-10">
         <h1 className="text-5xl font-bold mb-4 sm:text-6xl">Can You See It?</h1>
         <p className="sm:text-lg">
           The Overview Effect is a cognitive shift in awareness reported by
@@ -26,6 +26,7 @@ function App() {
         height="100%"
         loop={true}
         playing={true}
+        volume={0}
         muted={true}
         controls={false}
         playsinline={true}
