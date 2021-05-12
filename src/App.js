@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "../src/fonts/stylesheet.css";
 import ReactPlayer from "react-player";
 import video from "../src/hero.mp4";
+import static_background from "../src/static-background.jpeg";
 // import React, { useState } from "react";
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         playing={true}
         muted={true}
         controls={false}
+        playsinline={true}
+        fallback={static_background}
       />
     </div>
   );
