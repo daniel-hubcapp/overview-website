@@ -1,5 +1,5 @@
 import "../src/fonts/stylesheet.css";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/file";
 import video from "../src/hero.mp4";
 import static_background from "../src/static-background.jpeg";
 // import React, { useState } from "react";
@@ -19,7 +19,7 @@ function App() {
         </p>
       </div>
       <ReactPlayer
-        className="fixed inset-0 z-0 h-full object-cover"
+        className="fixed inset-0 z-0 h-full object-cover sm:bg-none bg-hero-background-image bg-center bg-no-repeat"
         url={video}
         width="100%"
         height="100%"
@@ -29,7 +29,6 @@ function App() {
         muted={true}
         controls={false}
         playsinline={true}
-        fallback={static_background}
       />
     </div>
   );
