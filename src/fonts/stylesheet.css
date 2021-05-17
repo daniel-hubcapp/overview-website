@@ -1,45 +1,25 @@
 @font-face {
-  font-family: "GT Super Display";
-  src: url("GTSuperDisplay-Regular.woff2") format("woff2"),
-    url("GTSuperDisplay-Regular.woff") format("woff");
+  font-family: "GT Super Text";
+  src: url("GT-Super-Text-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* @font-face {
-    font-family: 'GT Super Display';
-    src: url('GTSuperDisplay-Bold.woff2') format('woff2'),
-        url('GTSuperDisplay-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-} */
-
 @font-face {
   font-family: "Americana";
-  src: url("AmericanaBT-ExtraBoldCondensed.woff2") format("woff2"),
-    url("AmericanaBT-ExtraBoldCondensed.woff") format("woff");
+  src: url("AmericanaBT-ExtraBoldCondensed.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
-
-/* @font-face {
-    font-family: 'GT Super Display';
-    src: url('GTSuperDisplay-Medium.woff2') format('woff2'),
-        url('GTSuperDisplay-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-} */
 
 h1 {
   font-family: "Americana", serif;
 }
 
 p {
-  font-family: "GT Super Display", serif;
+  font-family: "GT Super Text", serif;
 }
 
 video {
